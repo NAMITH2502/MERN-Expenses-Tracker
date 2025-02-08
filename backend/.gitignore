@@ -1,0 +1,3 @@
+# Ignore .env files where sensitive data like MongoDB connection string is stored
+.env
+node_modules/
