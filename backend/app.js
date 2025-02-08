@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 //!Connect to mongodb
-mongoose.connect("mongodb+srv://namithp:namithp2002@namithp.lg82p.mongodb.net/MERN-Expenses-Tracker")
+mongoose.connect("mongodb+srv://namithp:<db_password>@namithp.lg82p.mongodb.net/MERN-Expenses-Tracker")
 .then(() => console.log("DB Connected"))
 .catch((err) => console.log(err));
 
